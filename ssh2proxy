@@ -1,0 +1,9 @@
+#!/bin/bash
+echo Usp: ./ssh2proxxy usuario@ip
+echo 
+echo Ccnvierte conexion ssh forwardring en proxy socks5 para navegacion
+echo Introduce el usuario@ip para conectar por ssh, puerto tcp 22 
+echo Requiere tener habilitaado AllowTcpForwarding Yes en /etc/sshd_config 
+echo Configuramos en nuestro navegador el proxxy socks5 con 127.0.0.1:8080
+echo
+ssh -f $1 -L 8080:localhost:22 -N
