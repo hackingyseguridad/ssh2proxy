@@ -20,7 +20,7 @@ ejecuta la orden en segundo plano (background)
 
 indica que no se debe iniciar una terminal tras la conexion
 
-# tunel SSH Putty y configuracion en el navegador:
+# tunel ssh con Putty y configuracion en el navegador:
 
 <img  style="float:left" alt="route logo" src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/ssh2proxy.png"> 
 
