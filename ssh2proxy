@@ -1,4 +1,8 @@
 #!/bin/bash
+# Incluimos en /etc/ssh/sshd_config
+# AllowTcpForwarding yes
+# GatewayPorts yes
+# TCPKeepAlive yes
 echo Usp: ./ssh2proxxy usuario@ip
 echo 
 echo Ccnvierte conexion ssh forwardring en proxy socks5 para navegacion
