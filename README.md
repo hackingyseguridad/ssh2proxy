@@ -26,8 +26,11 @@ indica que no se debe iniciar una terminal tras la conexion
 
 
 # Incluimos en /etc/ssh/sshd_config
+
 AllowTcpForwarding yes
+
 GatewayPorts yes
+
 TCPKeepAlive yes
 
 # www.hackingyseguridad.com
