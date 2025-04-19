@@ -1,8 +1,8 @@
-# ssh2proxy
+## ssh2proxy
 
 Convierte equipo remoto al que conectamos por SSH en un Proxy a traves del cual navegaremos
 
-# tunel ssh desde consola linux
+## tunel ssh desde consola linux
 
 ssh -f $1 -L 8080:localhost:22 -N
 
@@ -25,7 +25,7 @@ indica que no se debe iniciar una terminal tras la conexion
 <img  style="float:left" alt="route logo" src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/ssh2proxy.png"> 
 
 
-# Incluimos en /etc/ssh/sshd_config
+## Incluimos en /etc/ssh/sshd_config
 
 AllowTcpForwarding yes
 
@@ -33,4 +33,7 @@ GatewayPorts yes
 
 TCPKeepAlive yes
 
-# www.hackingyseguridad.com
+
+
+
+## http://www.hackingyseguridad.com
