@@ -38,7 +38,7 @@ TCPKeepAlive yes
 
 ## Persistencia:
 
-Para persistencia, el binario o script debe colocarse en rutas que permitan su ejecución continua, incluso después de reinicios. Algunas ubicaciones clave:
+Para persistencia, el binario o script debe colocarse en rutas que permitan su ejecución continua, incluso después de reinicios:
 
 ### Rutas camufladas (Paso de persistencia)
 /usr/lib/systemd/, /usr/local/bin/, /etc/cron.hourly/ (se confunde con archivos legítimos).
