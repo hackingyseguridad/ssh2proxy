@@ -2,7 +2,7 @@
 
 Convierte equipo remoto al que conectamos por SSH en un Proxy a traves del cual navegaremos
 
-<img  style="float:left" alt="ssh tunel " src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/ssh_tunel.png"> 
+<img  style="float:left" alt="ssh tunel " src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/tunel_ssh.png"> 
 
 
 ## tunel ssh desde consola linux
