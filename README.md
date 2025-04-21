@@ -36,7 +36,25 @@ GatewayPorts yes
 
 TCPKeepAlive yes
 
+## Persistencia:
+
+Para persistencia, el binario o script debe colocarse en rutas que permitan su ejecución continua, incluso después de reinicios. Algunas ubicaciones clave:
+
+### Rutas camufladas (Paso de persistencia)
+/usr/lib/systemd/, /usr/local/bin/, /etc/cron.hourly/ (se confunde con archivos legítimos).
+
+Nombres engañosos como rsyslogd, ntpupdate, kworker.
+
+### Sistemas con servicios de persistencia
+
+Systemd (crear un servicio oculto).
+
+Cronjobs (tareas programadas).
+
+rc.local (ejecución en inicio, en sistemas antiguos).
+
+Profile.d o bashrc (para usuarios específicos).
 
 
 
-## http://www.hackingyseguridad.com
+http://www.hackingyseguridad.com
