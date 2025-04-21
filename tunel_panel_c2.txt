@@ -63,7 +63,7 @@ GatewayPorts yes
 
 TCPKeepAlive yes
 
-
+Desde PC Panel C2 , probamos que tenemos salida a intenret p.ej. con: 
 
 curl  --socks5 127.0.0.1:1080 http://hackingyseguridad.com
 
