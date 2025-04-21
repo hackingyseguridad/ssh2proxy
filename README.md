@@ -2,6 +2,9 @@
 
 Convierte equipo remoto al que conectamos por SSH en un Proxy a traves del cual navegaremos
 
+<img  style="float:left" alt="ssh tunel " src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/ssh_tunel.png"> 
+
+
 ## tunel ssh desde consola linux
 
 ssh -f $1 -L 8080:localhost:22 -N
@@ -22,7 +25,7 @@ indica que no se debe iniciar una terminal tras la conexion
 
 # tunel ssh con Putty y configuracion en el navegador:
 
-<img  style="float:left" alt="route logo" src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/ssh2proxy.png"> 
+<img  style="float:left" alt="Configuracion Proxy Socks en el navegador " src="https://github.com/hackingyseguridad/ssh2proxy/blob/master/ssh2proxy.png"> 
 
 
 ## Incluimos en /etc/ssh/sshd_config
